@@ -1,7 +1,5 @@
 import Express from 'express'
-import PG  from 'pg'
-const client = new PG.Client()
- 
+
 const app = new Express()
 const port = 8080
 

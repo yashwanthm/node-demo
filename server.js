@@ -6,7 +6,7 @@ const app = new Express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello Bengaluru!')
+  res.send('Namma Bengaluru!')
 })
   
 app.listen(port, () => {
